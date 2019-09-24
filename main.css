@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: whitesmoke;
+    color: darkslategray;
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background:#fff;
+    background-color: whitesmoke;
+
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #4aaaa5;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .navbar-brand {
+      background-color: #4aaaa5;
+    color:whitesmoke; 
+  }
+
+  h2 {
+      color: #4aaaa5;
+
+  }
+
+  .img {
+      float: left;)
+
+  }
+.card-body ( float: :left;
+    
+)
