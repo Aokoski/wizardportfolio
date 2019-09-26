@@ -1,10 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Tutorial Sample Page</title>
+
+
+  <title>Aubrey O. Koski</title>
   <meta charset="utf-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- brought in the bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+
+
 </head>
 <body>
+
+    <!-- NavBar (copied and pasted from WC3) -->
+    <!-- Static navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-inverse";>
+      <a class="navbar-brand" href="#"><h4 class="nav-header">Aubrey O. Koski</h4></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav justify-content-right">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action 2</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          
+        </ul>
+
+    </nav>
+
+   
+    <!-- Main Body goes in Container -->
+ <div class="bg">  
+  <div class="container">
+ 
+      <div class="row">
+        <div class="col-md-9">
+          <div class= "card mt-2">
+            <div class="page-header">
+              <h2>bout muah</h2>
+            </div>
+      <div class="row">
+        <div class="col-md-3">
+              <img class="img-responsive portfolio-image" src="image.jpg ">
+            </div>
+        <div class="col-md-9">
+            <h6 class="card-subtitle mb-2 text-muted">
+                <p>Born in the backwoods of the great northern wilderness, and raised by wolves before attending UW-Madison, where I would graduate(..barely) with a BA in Journalism and Strategic Communication.
+                  </p>
+                  <p>Aspiring Creative Director passionate about the written word and a clean aesthetic. Big Idea connoisseur. Wordsmith. Voice of a Generation. Voice of exaggeration.  </p>
+            </h6>
+          </div>
+      </div>
+   </div>
+ </div>
+</div>
+</div>
+
+
+
+   <footer class="footer mt-auto py-3">
+    <div id= "footer">
+        <span class="text-muted"><div class="footer-copyright text-center py-3">© 2018 Copyright</span>
+        </div>
+    
+  </footer> 
+
+  </div>
 </body>
 </html>
