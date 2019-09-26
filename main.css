@@ -1,13 +1,16 @@
 body {
-    padding: 0;
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+    padding: 0px;
     margin: 0;
-    background: whitesmoke;
-    color: darkslategray;
+    background-position: center;
+
+
+  
   }
   /*--- navigation bar ---*/
   .navbar {
     background:#fff;
-    background-color: white;
+    background-color: whitesmoke;
 
   }
   .nav-link,
@@ -27,38 +30,57 @@ body {
 
   .navbar-brand {
       background-color: #4aaaa5;
-    color:whitesmoke; 
+    color:white; 
   }
 
   h2 {
+      margin:20px;
       color: #4aaaa5;
+      border-bottom: lightgrey 3pt solid;
 
   }
 
-  .img-responsive{
+.img-responsive{
       float: left;
-    margin:10px;
+    margin:20px;
 }
-.card-subtitle { margin: 10px;
+.card-subtitle { margin: 20px;
 
 }
 #footer {
     margin-bottom: 0px;
     border-top: #4aaaa5 5px solid;
-    background-color: darkgrey;
+    background-color: whitesmoke;
    
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 3.5rem;            /* Footer height */
+    height: 2.0 rem;   
+    padding: 20px;     
   }
-  .wrapper { margin-bottom: 0px;
-    border-top: #4aaaa5 5px solid;
-    background-color: darkgrey;
-   
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;     
+ 
+
+
+.btn {
+      background-color:#4aaaa5;
+      color: whitesmoke;
+      margin: 20px; 
+  }
+
+.portfolio-image { height: 150px; width: 200px"
+
 
   }
+
+  .nav-header {
+      margin: 10px;
+      color: whitesmoke;
+      margin-left: 100px;
+      margin-right: 100px;
+  }
+
+.form-group {
+    margin: 20px;
+}
+
+
