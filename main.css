@@ -67,7 +67,7 @@ body {
       margin: 20px; 
   }
 
-.portfolio-image { height: 150px; width: 200px"
+.portfolio-image { height: 150px; 
 
 
   }
@@ -82,5 +82,16 @@ body {
 .form-group {
     margin: 20px;
 }
+
+.mdb-lightbox {
+   
+    height: 150px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
 
 
