@@ -1,106 +1,113 @@
 body {
     background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg") ;
-    padding: 0px;
-    margin: 0;
-    background-position: center;
     height: 100%;
 
-
-  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  /*--- navigation bar ---*/
-  .navbar {
-    background:#fff;
+
+
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
     background-color: whitesmoke;
+    margin-bottom: 0;
+    border-radius: 0;
+  }
 
+
+.nav-link,
+.navbar-brand {
+  color: #4aaaa5;
+  cursor: pointer;
+}
+  
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 450px}
+  
+  /* Set white background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
   }
-  .nav-link,
-  .navbar-brand {
-    color: #4aaaa5;
-    cursor: pointer;
+  
+  /* Set black background color, white text and some padding */
+  footer {
+    margin-bottom: 0px;
+    background-color: #555;
+    color: white;
+    padding: 15px;
   }
-  .nav-link {
-    margin-right: 1em !important;
+  
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
   }
-  .nav-link:hover {
-    color: #000;
-  }
+
   .navbar-collapse {
     justify-content: flex-end;
   }
+  
+  
 
-  .navbar-brand {
-      background-color: #4aaaa5;
-    color:white; 
+  .jumbotron {
+      margin-top: 50px;
+      margin-left: 100px;
+      margin-right: 300px;
+      max-width: 55%;
   }
 
-  h2 {
-      margin:20px;
-      color: #4aaaa5;
-      border-bottom: lightgrey 3pt solid;
-
-  }
-
-.img-responsive{
-      float: left;
-    margin:20px;
-}
-.card-subtitle { margin: 10px;
+h1 {
+padding: 10px;
+color: #4aaaa5;
+border-bottom: lightgrey 3pt solid;
+margin-bottom: 10px;
 
 }
-#footer {
-    margin-bottom: 0px;
-    border-top: #4aaaa5 10px solid;
-    background-color: whitesmoke;
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-    min-width: 100%;  
-    
-    padding: 20px;     
-  }
-
- .push {
-     height:50px;
- }
-
-
-.btn {
-      background-color:#4aaaa5;
-      color: whitesmoke;
-      margin: 20px; 
-  }
-
-.portfolio-image { height: 150px; 
-
-
-  }
 
 .nav-header {
-      margin: 10px;
-      color: whitesmoke;
-      margin-left: 100px;
-      margin-right: 100px;
-  }
-
-.form-group {
-    margin: 20px;
+    font-size: 32pt ;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    padding: 10px;
+    height: 100%;
 }
 
+.imgtext {
+background-color: #4aaaa5 ;
+color: #f1f1f1;
+text-align: center;
 
+}
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-.container .image {
-    width: 50%;
-  }
-  
-.container img {
-    width: calc(100% - (20px * 2));
-    margin: 20px;
-  }
+.ftr {
+    border-top: #4aaaa5 10px solid;
+    background-color: whitesmoke;
+    margin-bottom: 0px;
 
+}
 
+#ftrtext {
+    color: #555
+}
+
+.btext { 
+    margin: 10px;
+
+}
+
+.btn {
+    background-color:#4aaaa5;
+    color: whitesmoke;
+    margin: 20px; 
+}
