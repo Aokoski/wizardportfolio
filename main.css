@@ -3,9 +3,9 @@ body {
     height: 100%;
 
     /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  
+    
+    background-size: auto;
   }
 
 
@@ -26,27 +26,26 @@ body {
 }
   
   /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-  .row.content {height: 450px}
+.row.content {height: 450px}
   
   /* Set white background color and 100% height */
-  .sidenav {
+.sidenav {
     padding-top: 20px;
     background-color: #f1f1f1;
     height: 100%;
   }
   
   /* Set black background color, white text and some padding */
-  footer {
-    margin-bottom: 0px;
+footer {
+    height: 4em;
     background-color: #555;
     color: white;
     padding: 15px;
-    margin-top: auto;
   }
   
   /* On small screens, set height to 'auto' for sidenav and grid */
   @media screen and (max-width: 767px) {
-    .sidenav {
+.sidenav {
       height: auto;
       padding: 15px;
     }
@@ -58,22 +57,6 @@ body {
     justify-content: flex-end;
   }
   
-  
-.jumbotron {
-      margin-top: 50px;
-      margin-left: 100px;
-      margin-right: 300px;
-      max-width: 55%;
-      min-width: fit-content;
-  }
-
-h1 {
-padding: 10px;
-color: #4aaaa5;
-border-bottom: lightgrey 3pt solid;
-margin-bottom: 10px;
-
-}
 
 .nav-header {
     font-size: 32pt ;
@@ -85,6 +68,23 @@ margin-bottom: 10px;
     height: 100%;
 }
 
+.jumbotron {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 300px;
+    max-width: 55%;
+    min-width: fit-content;
+    margin-bottom: auto;
+}
+
+h1 {
+    padding: 10px;
+    color: #4aaaa5;
+    border-bottom: lightgrey 3pt solid;
+    margin-bottom: 10px;
+    
+    }
+
 .imgtext {
 background-color: #4aaaa5 ;
 color: #f1f1f1;
@@ -95,13 +95,19 @@ text-align: center;
 .ftr {
     border-top: #4aaaa5 10px solid;
     background-color: whitesmoke;
-    margin-bottom: 0px;
-    margin-top: auto;
+    position: absolute;
+    height: 60px;
+    margin: 0 auto -4em;
+    bottom: 0;
 
+
+   
 }
 
+
 #ftrtext {
-    color: #555
+    color: #555 ;
+    margin-bottom:0;
 }
 
 .btext { 
@@ -114,3 +120,9 @@ text-align: center;
     color: whitesmoke;
     margin: 20px; 
 }
+
+@media screen and (max-width: 768px) {
+    .ftr{
+        bottom: inherit;
+    }
+  }
