@@ -1,0 +1,101 @@
+body {
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg") ;
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    background-color: whitesmoke;
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+
+.nav-link,
+.navbar-brand {
+  color: #4aaaa5;
+  cursor: pointer;
+}
+  
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 450px}
+  
+  /* Set white background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+  
+  /* Set black background color, white text and some padding */
+  footer {
+    margin-bottom: 0px;
+    background-color: #555;
+    color: white;
+    padding: 15px;
+  }
+  
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  
+
+  .jumbotron {
+      margin-top: 50px;
+      margin-left: 100px;
+      margin-right: 100px;
+
+  }
+h1 {
+padding: 10px;
+color: #4aaaa5;
+border-bottom: lightgrey 3pt solid;
+margin-bottom: 10px;
+
+}
+
+.nav-header {
+    font-size: 32pt ;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    padding: 10px;
+    height: 100%;
+}
+
+.imgtext {
+background-color: #4aaaa5 ;
+color: #f1f1f1;
+text-align: center;
+
+}
+
+.ftr {
+    border-top: #4aaaa5 10px solid;
+    background-color: whitesmoke;
+
+
+}
+
+#ftrtext {
+    color: #555
+}
