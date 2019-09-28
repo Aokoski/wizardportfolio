@@ -41,6 +41,7 @@ body {
     background-color: #555;
     color: white;
     padding: 15px;
+    margin-top: auto;
   }
   
   /* On small screens, set height to 'auto' for sidenav and grid */
@@ -95,6 +96,7 @@ text-align: center;
     border-top: #4aaaa5 10px solid;
     background-color: whitesmoke;
     margin-bottom: 0px;
+    margin-top: auto;
 
 }
 
