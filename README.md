@@ -1,5 +1,5 @@
 # wizardportfolio
-bootstrap portfolio
+
 This is my attempt at using the Bootstrap CSS Framework to recreate my portfolio. 
 I created the following pages: index.html, portfolio.html and contact.html, and tried to incorporate the following items:
 navbar, responsive layout, and responsive images.
